@@ -1,7 +1,7 @@
 /* BTAppController */
 
 #import <Cocoa/Cocoa.h>
-#import <python2.2/Python.h>
+#import <Python/Python.h>
 
 @interface BTAppController : NSObject
 {
@@ -10,7 +10,6 @@
     NSMutableArray *dlControllers;
     NSString *version;
     NSPoint lastPoint;
-    id generator;
 }
 - (IBAction)cancelUrl:(id)sender;
 - (IBAction)openURL:(id)sender;
@@ -25,5 +24,4 @@
 - (NSNotificationCenter *)notificationCenter;
 - (PyThreadState *)tstate;
 - (void)setTstate:(PyThreadState *)nstate;
-- (IBAction)openGenerator:(id)sender;
 @end

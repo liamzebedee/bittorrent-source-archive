@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 38;
+	objectVersion = 34;
 	objects = {
 		080E96DCFE201CFB7F000001 = {
 			fileRef = 29B97318FDCFA39411CA2CEA;
@@ -13,15 +13,12 @@
 		};
 		080E96DDFE201D6D7F000001 = {
 			children = (
-				F5D01D3D027E224601A845D2,
-				F5D01D3E027E224601A845D2,
 				F5D01D37027E0FE201A845D2,
 				F5D01D38027E0FE201A845D2,
+				F5D01D3D027E224601A845D2,
+				F5D01D3E027E224601A845D2,
 				F5A3C5CA02F3CA7101A845D2,
 				F5A3C5CB02F3CA7101A845D2,
-				F5ACEF980308CD8E01538297,
-				F5ACEF990308CD8E01538297,
-				F5ACEF9D030B4FE301538297,
 			);
 			isa = PBXGroup;
 			name = Classes;
@@ -170,9 +167,7 @@
 			children = (
 				29B97318FDCFA39411CA2CEA,
 				F5D01D34027E0B0201A845D2,
-				F542E1960308BE0301AA9403,
 				089C165CFE840E0CC02AAC07,
-				F51C7E100310E7F301A845D2,
 			);
 			isa = PBXGroup;
 			name = Resources;
@@ -226,7 +221,7 @@
 			);
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = "";
-				HEADER_SEARCH_PATHS = /usr/local/include/;
+				HEADER_SEARCH_PATHS = "";
 				INSTALL_PATH = "$(HOME)/Applications";
 				LIBRARY_SEARCH_PATHS = /usr/local/lib/python2.2/config;
 				OPTIMIZATION_CFLAGS = "-O0";
@@ -244,8 +239,8 @@
 			productName = BitTorrent;
 			productReference = 17587328FF379C6511CA2CBB;
 			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
-<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
-<plist version=\"1.0\">
+<!DOCTYPE plist SYSTEM \"file://localhost/System/Library/DTDs/PropertyList.dtd\">
+<plist version=\"0.9\">
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
@@ -299,11 +294,9 @@
 				F5F1BAA702F0842B01A845D2,
 				F5A3C5CC02F3CA7101A845D2,
 				F5A3C5CD02F3CA7101A845D2,
-				F5ACEF9A0308CD8E01538297,
-				F5ACEF9E030B4FE301538297,
 			);
 			isa = PBXHeadersBuildPhase;
-			runOnlyForDeploymentPostprocessing = 0;
+			name = Headers;
 		};
 		29B97328FDCFA39411CA2CEA = {
 			buildActionMask = 2147483647;
@@ -311,11 +304,10 @@
 				080E96DCFE201CFB7F000001,
 				F5D01D36027E0B0201A845D2,
 				F56F7C3E02F3731501A845D2,
-				F542E1980308BE0401AA9403,
-				F51C7E110310E7F301A845D2,
+				F5A3C5DB02F6923301A845D2,
 			);
 			isa = PBXResourcesBuildPhase;
-			runOnlyForDeploymentPostprocessing = 0;
+			name = "Bundle Resources";
 		};
 		29B9732BFDCFA39411CA2CEA = {
 			buildActionMask = 2147483647;
@@ -325,10 +317,9 @@
 				F5D01D42027E7D9D01A845D2,
 				F5A3C5CE02F3CA7101A845D2,
 				F5A3C5D302F6385901A845D2,
-				F5ACEF9B0308CD8E01538297,
 			);
 			isa = PBXSourcesBuildPhase;
-			runOnlyForDeploymentPostprocessing = 0;
+			name = Sources;
 		};
 		29B9732CFDCFA39411CA2CEA = {
 			fileRef = 29B97316FDCFA39411CA2CEA;
@@ -346,7 +337,7 @@
 				F5A3C5D102F3DA9B01A845D2,
 			);
 			isa = PBXFrameworksBuildPhase;
-			runOnlyForDeploymentPostprocessing = 0;
+			name = "Frameworks & Libraries";
 		};
 //290
 //291
@@ -399,47 +390,6 @@
 			settings = {
 			};
 		};
-		F51C7E0E0310E35601A845D2 = {
-			isa = PBXFileReference;
-			name = English;
-			path = English.lproj/Localizable.strings;
-			refType = 4;
-		};
-		F51C7E100310E7F301A845D2 = {
-			children = (
-				F51C7E0E0310E35601A845D2,
-			);
-			isa = PBXVariantGroup;
-			name = Localizable.strings;
-			refType = 4;
-		};
-		F51C7E110310E7F301A845D2 = {
-			fileRef = F51C7E100310E7F301A845D2;
-			isa = PBXBuildFile;
-			settings = {
-			};
-		};
-		F542E1960308BE0301AA9403 = {
-			children = (
-				F542E1970308BE0301AA9403,
-			);
-			isa = PBXVariantGroup;
-			name = Metainfo.nib;
-			path = "";
-			refType = 4;
-		};
-		F542E1970308BE0301AA9403 = {
-			isa = PBXFileReference;
-			name = English;
-			path = English.lproj/Metainfo.nib;
-			refType = 4;
-		};
-		F542E1980308BE0401AA9403 = {
-			fileRef = F542E1960308BE0301AA9403;
-			isa = PBXBuildFile;
-			settings = {
-			};
-		};
 		F55ADF7802F292E001A845D2 = {
 			isa = PBXFileReference;
 			path = waterfall.icns;
@@ -463,9 +413,9 @@
 			generatedFileNames = (
 			);
 			isa = PBXShellScriptBuildPhase;
+			name = "Shell Script";
 			neededFileNames = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = $SRCROOT/freeze.py;
 		};
@@ -543,35 +493,8 @@
 			path = README.txt;
 			refType = 2;
 		};
-		F5ACEF980308CD8E01538297 = {
-			isa = PBXFileReference;
-			path = Generate.h;
-			refType = 4;
-		};
-		F5ACEF990308CD8E01538297 = {
-			isa = PBXFileReference;
-			path = Generate.m;
-			refType = 4;
-		};
-		F5ACEF9A0308CD8E01538297 = {
-			fileRef = F5ACEF980308CD8E01538297;
-			isa = PBXBuildFile;
-			settings = {
-			};
-		};
-		F5ACEF9B0308CD8E01538297 = {
-			fileRef = F5ACEF990308CD8E01538297;
-			isa = PBXBuildFile;
-			settings = {
-			};
-		};
-		F5ACEF9D030B4FE301538297 = {
-			isa = PBXFileReference;
-			path = Tstate.h;
-			refType = 4;
-		};
-		F5ACEF9E030B4FE301538297 = {
-			fileRef = F5ACEF9D030B4FE301538297;
+		F5A3C5DB02F6923301A845D2 = {
+			fileRef = F5A3C5DA02F6923301A845D2;
 			isa = PBXBuildFile;
 			settings = {
 			};
