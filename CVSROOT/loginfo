@@ -27,5 +27,5 @@
 
 CVSROOT $CVSROOT/CVSROOT/syncmail %{sVv} bram_cohen@users.sourceforge.net
 
-DEFAULT $CVSROOT/CVSROOT/syncmail %{sVv} BitTorrent@yahoogroups.com
+DEFAULT $CVSROOT/CVSROOT/syncmail %{sVv} bittorrentlist@users.sourceforge.net
 
