@@ -25,7 +25,7 @@
 # or
 #DEFAULT (echo ""; id; echo %{sVv}; date; cat) >> $CVSROOT/CVSROOT/commitlog
 
-CVSROOT $CVSROOT/CVSROOT/syncmail %{sVv} bram@bitconjurer.org
+CVSROOT $CVSROOT/CVSROOT/syncmail %{sVv} bram_cohen@users.sourceforge.net
 
 DEFAULT $CVSROOT/CVSROOT/syncmail %{sVv} BitTorrent@yahoogroups.com
 
