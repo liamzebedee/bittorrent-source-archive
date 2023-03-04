@@ -3,7 +3,7 @@ bittorrent-source-archive
 
 This is an unofficial copy of the original BitTorrent source code by Bram Cohen and contributors.
 
-It was taken from the CVS repo hosted on Sourceforge, and converted using [cvs2git](https://www.mcs.anl.gov/~jacob/cvs2svn/cvs2git.html#usage).
+It was taken from the [CVS repo](http://sourceforge.net/p/bittorrent/code/?source=navbar) hosted on Sourceforge, and converted using [cvs2git](https://www.mcs.anl.gov/~jacob/cvs2svn/cvs2git.html#usage).
 
 ### Why?
 
