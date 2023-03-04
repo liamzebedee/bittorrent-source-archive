@@ -9,6 +9,7 @@ It was taken from the [CVS repo](http://sourceforge.net/p/bittorrent/code/?sourc
 
  - [earliest revision](https://github.com/liamzebedee/bittorrent-source-archive/commit/144fe942d6ad8477caeeca410d213edfbdb212a2#diff-c95dd6b990be2ddbe55442a66f375732e9bf283616cb14acd21c28205146d498R28) on Sep 21, 2001.
  - one of the earliest files shared, [as part of the docs](https://github.com/liamzebedee/bittorrent-source-archive/commit/144fe942d6ad8477caeeca410d213edfbdb212a2#diff-c95dd6b990be2ddbe55442a66f375732e9bf283616cb14acd21c28205146d498R28), is this piece of Jazz Fusion called Mercy Mercy Mercy.
+ - some [clear inspiration taken from Lisp](https://github.com/liamzebedee/bittorrent-source-archive/commit/144fe942d6ad8477caeeca410d213edfbdb212a2#diff-c7c92bda7e40c9f0cd9595b5f4f6007fba22e0a79da3869c1d23e7211b2ba430R30), for the BEncode wire format. 
 
 ### Why?
 
